@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+
+main{
+    width: 1200px;
+    background-color: blueviolet;
+    margin: 200px auto 0;
+    text-align: center;
+}
+main > div{
+    background-color: yellow;
+    padding: 50px 0;
+}
