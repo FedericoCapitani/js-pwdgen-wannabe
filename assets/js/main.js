@@ -11,5 +11,12 @@ const last_name = prompt('Inserisci il tuo cognome');
 const color = prompt('Inserisci il tuo colore preferito');
 console.log(first_name, last_name, color);
 
+// generare numero
+const number = 22;
+
+// generare la password
+
+const password = `${first_name + last_name + color + number}`
+
 // scrivere la pwd generta
-document.getElementById('pwd').innerHTML = `${first_name}${last_name}${color}22`
+document.getElementById('pwd').innerHTML = password;
